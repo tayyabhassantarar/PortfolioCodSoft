@@ -1,0 +1,346 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #f9f7f7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 210px;
+    height: auto;
+}
+
+.fixed-header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px 3rem;
+    display: flex;
+}
+
+.content {
+    padding-top: 100px;
+    /* Add padding to ensure content starts below the fixed header */
+}
+
+
+
+section#about {
+    padding: 50px;
+    letter-spacing: 1px;
+    color: #927f7f;
+
+
+}
+
+section#about h2 {
+    font-size: 32px;
+    color: #969191;
+}
+
+section#about p {
+    font-size: 18px;
+    color: #a5a2a2;
+    line-height: 1.5;
+}
+
+h1#greeting {
+    font-size: 48px;
+    color: #333;
+    margin: 20px 0;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    animation: fade-in 1.5s ease-in-out forwards;
+
+}
+
+h1#greeting::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #ff7f50;
+    margin: 10px auto;
+
+}
+
+h1#greeting:hover {
+    color: #ff7f50;
+}
+
+
+
+.social-icons {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    margin-left: 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+    font-weight: 450;
+    transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ff7f50;
+    border: 1px solid #baabab;
+}
+
+section {
+    padding: 50px;
+}
+
+
+#hero-section {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+#about-section {
+    background-color: #e6e6e6;
+}
+
+#contact-section {
+    background-color: #f9f9f9;
+}
+
+#resume-section {
+    background-color: #ededed;
+}
+
+.button-container {
+    margin-top: 30px;
+    width: 250px;
+    height: 100%;
+    margin-left: 45px;
+}
+
+.head_buttons:hover {
+    border-radius: 40px;
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
+    opacity: 90%;
+}
+
+.btn-m{
+    padding: 0.5rem 1rem;
+}
+
+.btn-m:hover{
+    background-color: #ff7f50;
+    border-radius: 10px;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.image-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-right: 40px;
+}
+
+.responsive-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.bordered-image {
+    border: 2px solid #282222;
+    border-radius: 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+#moving-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.4s ease-in-out;
+    max-width: 100%;
+    height: auto;
+}
+
+.imagewhat {
+    max-width: width 60%;
+    position: relative;
+    height: auto;
+}
+
+.whathead {
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.whathead:hover {
+    color: #ff7f50;
+}
+
+.icon_font {
+    font-weight: 600;
+    transition: all 0.3s ease-out;
+}
+
+.icon_font:hover {
+    color: rgb(176, 176, 118);
+
+}
+
+
+
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-img-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.card-img-container:hover img {
+    transform: scale(1.1);
+}
+
+.card-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card-link {
+    margin: 0 5px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.download-button {
+    display: grid;
+    place-items: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #739474;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    margin-top: 45px;
+    ;
+    cursor: pointer;
+
+}
+
+.download-button:hover {
+    background-color: #45a049;
+}
+
+.certifications {
+    text-align: center;
+    transition:all 0.3s ease-in-out;
+}
+
+
+.certification-card {
+    display: inline-block;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    transition:all 0.3s ease-in-out;
+
+}
+.certification-card:hover{
+    text-align: center;
+    transition:all 0.3s ease-in-out;
+    color:#7d4141;
+    transform: scale(1.1);
+}
+
+.certification-card img {
+    max-width: 100%;
+    height: auto;
+}

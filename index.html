@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Add Libraries-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="path/to/your/css/bootstrap.min.css">
+    <script src="path/to/your/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>Tayyab Portfolio</title>
+</head>
+
+<body>
+    <!--Header-->
+
+    <header class="fixed-header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#portfolio-section">Portfolio</a></li>
+                <li><a href="#opensource-section">Open Source</a></li>
+                <li><a href="#projects-section">Projects</a></li>
+                <li><a href="#certifications-section">Certifications</a></li>
+                <li><a href="#contact_me-section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Portfolio Section-->
+    <section id="portfolio-section">
+        <div class="grid col-12">
+            <div class="row">
+                <div class="col-7">
+                    <section id="about">
+
+                        <h1 id="greeting">Hi all I'm Tayyab</h1>
+                        <button class="clap-btn btn btn-light">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </button>
+
+                        I am a passionate Full Stack Developer with experience in building web applications using
+                        JavaScript/React.js/HTML/CSS/Bootstrap and various other cool libraries and frameworks. I
+                        am also proficient in data visualization, ML/AI using Python.
+                        </p>
+
+                    </section>
+
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/tayyabHtarar" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/Tayyab0815" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/tayyab-hassan-tarar-305252211/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B2Jp7tAHvRG6hykiUVtEUmQ%3D%3D"
+                            target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/tayyabhassantarar" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                    <div class="grid col-12">
+                        <div class="row">
+                            <div class="head_buttons col-3">
+                                <div class="button-container">
+                                    <a href="#projects-section" class="btn btn-m btn-md">Happy Projects</a>
+                                </div>
+
+                            </div>
+                            <div class="col-6">
+                                <div class="button-container">
+                                    <a href="#contact_me-section" class="btn btn-secondary btn-md">See my Resume</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="image-container">
+                        <img src="tyb.png" alt="Moving Image" id="moving-image" class="bordered-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--OpenSource Section-->
+    <section id="opensource-section">
+        <div class="grid col-12">
+            <div class="row">
+                <div class="image-container col-5">
+                    <img src="what.png" class="responsive-image">
+                </div>
+
+                <div class="col-6">
+                    <h4 class="whathead">What I do...? </h4>
+                    <img src="icons.png" class="responsive-image">
+
+                    <p><span class="icon_font"> Web Development </span> (Portfolios, Databases, Inventories,....)</p>
+                    <p><span class="icon_font"> Data Management</span> (Visualizations, Re-Ordering,....)</p>
+                    <p><span class="icon_font">Projects Completion</span> (Students, freelance,....)</p>
+
+                    <button onclick="sendEmail()" class="btn btn-info">Send Email for Services</button>
+
+                    <script>
+                        function sendEmail() {
+                            window.location.href = "mailto:tayyabhassantarar@gmail.com";
+                        }
+                    </script>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Projects Section-->
+    <section id="projects-section">
+        <div class="container">
+            <div class="row">
+                <h4 class="whathead" style="margin-bottom: 60px;">Projects I Made...? </h4>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="si.png" class="card-img-top" alt="Project 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Store Inventory System</h5>
+                            <div class="card-links">
+                                <a href="https://github.com/tayyabhassantarar/StoreInventory-Project"
+                                    class="btn btn-primary card-link">Source Code</a>
+                                <a href="#" class="btn btn-secondary card-link">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="si2.png" class="card-img-top" alt="Project 2">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Agri Business Portal</h5>
+                            <div class="card-links">
+                                <a href="https://github.com/tayyabhassantarar/Agri-Business-project"
+                                    class="btn btn-primary card-link">Source Code</a>
+                                <a href="#" class="btn btn-secondary card-link">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-img-container">
+                            <img src="result.png" class="card-img-top" alt="Project 3">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Tribute Page</h5>
+                            <div class="card-links">
+                                <a href="https://github.com/tayyabhassantarar/CodSoft/tree/main/Level2_Task1"
+                                    class="btn btn-primary card-link">Source Code</a>
+                                <a href="#" class="btn btn-secondary card-link">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="projects.html" class="btn btn-success btn-md" style="align-items: center;">View All Projects</a>
+        </div>
+    </section>
+
+    <!--Certifications Section-->
+    <section id="certifications-section">
+        <h4 class="whathead" style="margin-bottom: 60px;">Certifications & Accomplishments </h4>
+
+        <div class="certifications">
+            <div id="certifications-container"></div>
+        </div>
+
+        <script>
+            const certificationsData = [
+                {
+                    title: 'Python-101',
+                    organization: 'Coursera',
+                    date: 'Aug 2023',
+                    image: 'Cour1.png',
+                },
+                {
+                    title: 'Fundamentals of English Grammar',
+                    organization: 'Alison',
+                    date: 'Jun 2023',
+                    image: 'Cour2.png',
+                },
+
+                // Add more certifications as needed
+            ];
+
+
+            const certificationsContainer = document.getElementById('certifications-container');
+
+            certificationsData.forEach(certification => {
+                const certificationCard = document.createElement('div');
+                certificationCard.className = 'certification-card';
+
+                const image = document.createElement('img');
+                image.src = certification.image;
+                image.alt = certification.title;
+
+                const title = document.createElement('h5');
+                title.textContent = certification.title;
+
+                const organization = document.createElement('p');
+                organization.textContent = certification.organization;
+
+                const date = document.createElement('p');
+                date.textContent = certification.date;
+
+                certificationCard.appendChild(image);
+                certificationCard.appendChild(title);
+                certificationCard.appendChild(organization);
+                certificationCard.appendChild(date);
+
+                certificationsContainer.appendChild(certificationCard);
+            });
+        </script>
+        <div class="button-container">
+            <a href="accomplishments.html" class="btn btn-success btn-md" style="align-items: center;">View All
+                Accomplishments</a>
+        </div>
+    </section>
+
+    <!--Contact Me Section-->
+    <section id="contact_me-section">
+        <div class="grid col-12">
+            <div class="row">
+                <div class="col-5">
+                    <h4 class="whathead" style="margin-bottom: 60px;">My Profile </h4>
+
+                    <p style="text-align: center;"><span class="icon_font"> Email: </span> tayyabhassantarar@gmail.com
+                    </p>
+                    <p style="text-align: center;"><span class="icon_font"> WhatsApp:</span> +92-344-1235815 </p>
+                    <p style="text-align: center;"><span class="icon_font"> BSCS:</span> UCP-Lahore </p>
+                    <p style="text-align: center;"><span class="icon_font"> LLB:</span> PU-Lahore </p>
+                    <a href="TayyabResume.pdf" download class="download-button">Showcase Resume</a>
+
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function () {
+                            var downloadButton = document.querySelector(".download-button");
+                            downloadButton.addEventListener("click", function (event) {
+                                event.preventDefault();
+                                window.location.href = "TayyabResume.pdf";
+                            });
+                        });
+                    </script>
+                    <div class="social-icons" style="align-items: center; margin-top: 35px; margin-left: 20px;">
+                        <a href="https://www.facebook.com/tayyabHtarar" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/Tayyab0815" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/tayyab-hassan-tarar-305252211/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B2Jp7tAHvRG6hykiUVtEUmQ%3D%3D"
+                            target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/tayyabhassantarar" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+
+
+                </div>
+                <div class="col-5">
+                    <img style="display: grid;" src="cu.png" class="responsive-image">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <p>© 2023 Tayyab Hassan Tarar. All rights reserved.</a></p>
+    </footer>
+
+
+
+</body>
+
+</html>
